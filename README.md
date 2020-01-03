@@ -1,5 +1,7 @@
 # react-native-video360
 
+[![360](https://raw.githubusercontent.com/davichoso/react-native-video360/master/360.png "360")](https://raw.githubusercontent.com/davichoso/react-native-video360/master/360.png "360")
+
 ## Getting started
 `$ npm install react-native-video360 --save`
 ## Usage
