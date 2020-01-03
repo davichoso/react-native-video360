@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="#000"
+    >
+
+    <com.google.vr.sdk.widgets.video.VrVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/viewControls"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#CC000000"
+        >
+        <!-- Seeking UI & progress indicator.-->
+        <SeekBar
+            android:layout_toLeftOf="@+id/volume_toggle"
+            android:id="@+id/seek_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_weight="8"/>
+        <ImageButton
+            android:layout_alignParentRight="true"
+            android:id="@+id/volume_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingStart="0dp"
+            android:paddingTop="4dp"
+            android:src="@drawable/volume_on"/>
+
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/seek_bar"
+            android:layout_weight="1"
+            android:paddingEnd="32dp"
+            android:paddingStart="32dp"
+            android:text="Carcando ..."
+            android:textColor="#CCFFFFFF"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+</RelativeLayout>
