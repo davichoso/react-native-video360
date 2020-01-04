@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-video360.git",
-    "baseUrl": "https://github.com/github_account/react-native-video360"
+    "url": "git+https://github.com/davichoso/react-native-video360.git",
+    "baseUrl": "https://github.com/davichoso/react-native-video360"
   },
   "keywords": [
     "react-native"

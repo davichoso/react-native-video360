@@ -4,18 +4,13 @@
 
 ## Getting started
 `$ npm install react-native-video360 --save`
-## Usage
-```javascript
-import Video360 from 'react-native-video360';
-// TODO: What to do with the module?
-Video360;
-```
+
 ### Notes
 -  This plugin was tested in react native  0.61 with automatic linking, but i think that it should work in older versions linking manually.
 - dont forget to run pod install in ios folder
 	cd ios && pod install
 - in Android test in a real device or android Q simulator i dont know but VR SDK fails in a lot of simulators but not in real devices.
-- in IOS if you want to run in a real device go to Pods-> Development Pods -> react-native-video-360 -> react-native-video360.podspec open it and uncoment production and comment simulator, I wanted to build the framework for all architectures but i didnt worked, ill try to fix this in the future
+- in IOS if you want to run in a real device go to Pods-> Development Pods -> react-native-video-360 -> react-native-video360.podspec open it and uncoment production and comment simulator lines, I wanted to build the framework for all architectures but It didnt worked, ill try to fix this in the future
 
 ```
 # dev simulator
