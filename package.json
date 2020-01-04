@@ -1,26 +1,23 @@
 {
-  "name": "react-native-video360",
-  "title": "React Native Video360",
+  "name": "react-native-video360plugin",
+  "title": "React Native Video360 plugin",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "react native 360 video plugin",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davichoso/react-native-video360.git",
     "baseUrl": "https://github.com/davichoso/react-native-video360"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "video360"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "David Ovando",
+    "email": "davichoso@gmail.com"
   },
   "license": "MIT",
-  "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "^16.8.1",
