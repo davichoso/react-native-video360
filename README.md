@@ -3,7 +3,7 @@
 [![360](https://raw.githubusercontent.com/davichoso/react-native-video360/master/360.png "360")](https://raw.githubusercontent.com/davichoso/react-native-video360/master/360.png "360")
 
 ## Getting started
-`$ npm install react-native-video360 --save`
+`npm i react-native-video360plugin --save`
 
 ### Notes
 -  This plugin was tested in react native  0.61 with automatic linking, but i think that it should work in older versions linking manually.
