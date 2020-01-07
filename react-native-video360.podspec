@@ -17,11 +17,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/github_account/react-native-video360.git", :tag => "#{s.version}" }
  
   s.ios.framework = 'AudioToolbox','CoreMedia','VideoToolbox'
- # dev simulator
-  s.ios.vendored_frameworks = 'Frameworks/SGPlayer.framework','Frameworks/SGPlatform.framework'
- # production
- #s.ios.vendored_frameworks = 'Frameworks/arm/SGPlayer.framework','Frameworks/arm/SGPlatform.framework'
-  
+  s.ios.vendored_frameworks = 'Frameworks/SGPlayer.framework','Frameworks/SGPlatform.framework' 
   s.ios.library = 'bz2.1.0','iconv.2','z.1'
   s.source_files = "ios/**/*.{h,m,swift}"
   s.resources = ['ios/*.{xib}']
