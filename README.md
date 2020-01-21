@@ -10,7 +10,7 @@
 - dont forget to run pod install in ios folder
 	cd ios && pod install
 - in Android test in a real device or android Q simulator i dont know but VR SDK fails in a lot of simulators but not in real devices.
-- in IOS if you want to run in a real device go to Pods-> Development Pods -> react-native-video-360 -> react-native-video360.podspec open it and uncoment production and comment simulator lines, I wanted to build the framework for all architectures but It didnt worked, ill try to fix this in the future
+- in IOS if you want to run in a real device go to Pods-> Development Pods -> react-native-video-360 -> react-native-video360.podspec open it and uncoment production and comment simulator lines, then run pod install again, I wanted to build the framework for all architectures but It didnt worked, ill try to fix this in the future
 
 ```
 # dev simulator

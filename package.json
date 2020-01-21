@@ -1,7 +1,7 @@
 {
   "name": "react-native-video360plugin",
   "title": "React Native Video360 plugin",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "react native 360 video plugin",
   "main": "index.js",
   "repository": {
@@ -11,6 +11,10 @@
   },
   "keywords": [
     "react-native",
+    "video 360 player",
+    "360 video",
+    "video 3d",
+    "plugin",
     "video360"
   ],
   "author": {
