@@ -79,7 +79,7 @@ iOS the player from here
 https://github.com/libobjc/SGPlayer
 
 
-##TODO
+## TODO
 
 - implement SeekBar in android, it is almost done in the code.. but a soon as i have time ill finish it.
 - complete documentation and javascript interfaces
