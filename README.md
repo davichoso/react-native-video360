@@ -1,6 +1,8 @@
 # react-native-video360
 
-React Native module to play 360 videos, using the SGPlayer for iOS, and Google VR for Android
+React Native module to play 360 videos, using the SGPlayer for iOS, and Google VR for Android, this plugin was tested using react native 0.61
+
+[![360](https://raw.githubusercontent.com/davichoso/react-native-video360/master/360.png "360")](https://raw.githubusercontent.com/davichoso/react-native-video360/master/360.png "360")
 
 ## Getting started
 `npm i react-native-video360plugin --save`
