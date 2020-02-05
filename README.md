@@ -72,12 +72,11 @@ enableCardboardButton={true}
 enableTouchTracking={true}
 hidesTransitionView={false}
 ```
-i have taken the android part of code from here
+I have taken the android part of code from here
 https://github.com/altafan/react-native-gvr-video-android/tree/master/android/src/main/java/com/gvrvideo
 
-from ios taken the player from here
+iOS the player from here
 https://github.com/libobjc/SGPlayer
-
 
 
 ##TODO
