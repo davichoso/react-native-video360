@@ -13,6 +13,7 @@ React Native module to play 360 videos, using the SGPlayer for iOS, and Google V
 	cd ios && pod install
 - in Android test in a real device or android Q simulator I don't know but VR SDK fails in a lot of simulators but not in real devices.
 - in iOS if you want to run in a real device go to Pods-> Development Pods -> react-native-video-360 -> react-native-video360.podspec open it and uncoment production and comment simulator lines, then run 'pod install' again. I wanted to build the framework for all architectures but it didn't worked, ill try to fix this in the future
+- To archive you need change Build Settings Architectures to from `$(STANDARD_ARCHS)` to `arm64` and `arm64s`, and Enable Bitcode to `no`
 
 ```
 # dev simulator
